@@ -13,7 +13,7 @@
   }
   
   .menu {
-    border: 1px solid #fff;  /* For debugging */
+    border: 1px solid white;  /* For debugging */
     width: 900px;
     display: flex;
     justify-content: space-between;
@@ -46,6 +46,7 @@
   .photo-grid-container {
     display: flex;
     justify-content: center;
+    /* background-image: url(https://c.tenor.com/_4YgA77ExHEAAAAd/rick-roll.gif) */
   }
   
   .photo-grid {
@@ -97,4 +98,10 @@
 
   .signup {
     margin-left: auto;
+  }
+
+  .rick {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
   }
